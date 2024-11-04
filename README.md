@@ -8,6 +8,7 @@
 2.ERD 
 
 
+![image](https://github.com/user-attachments/assets/53c14ec3-0f30-4a1a-88c2-e9822418b7ec)
 
 
 
