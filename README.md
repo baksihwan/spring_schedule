@@ -8,7 +8,7 @@
 2.ERD 
 
 
-![image](https://github.com/user-attachments/assets/f97ba596-399e-45e4-86a0-6101f40b7189)
+
 
 
 
