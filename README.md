@@ -1,5 +1,7 @@
 1. API 명세서
-![image](https://github.com/user-attachments/assets/08fba196-9eb5-4052-be24-2a2b59f298c4)
+
+
+![image](https://github.com/user-attachments/assets/6eede3fd-2b19-4283-a4e5-ffe019dd1586)
 
 
 
