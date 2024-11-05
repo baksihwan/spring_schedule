@@ -3,7 +3,7 @@
 
 ![image](https://github.com/user-attachments/assets/6eede3fd-2b19-4283-a4e5-ffe019dd1586)
 
-*postman 링크 : https://web.postman.co/workspace/My-Workspace~a34c49aa-e55c-407b-85fa-64f423e55123/documentation/39423685-56abdab5-cc75-4cfe-a04e-e662f380c539
+*postman 링크 : https://documenter.getpostman.com/view/39423685/2sAY4ye1fo
 
 2.ERD 
 
