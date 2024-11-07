@@ -17,3 +17,4 @@ select * from SCHEDULE;    --전체 일정 조회
 select * from SCHEDULE where id=1;   --선택 일정 조회
 update schedule set password= '2930' where id = 1 ;  --선택 일정 수정
 delete from schedule where id =1 ;  --선택 일정 삭제
+
