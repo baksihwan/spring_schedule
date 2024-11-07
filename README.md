@@ -1,14 +1,16 @@
-1. API 명세서
+# 1. API 명세서
 
 
 ![image](https://github.com/user-attachments/assets/6eede3fd-2b19-4283-a4e5-ffe019dd1586)
 
 *postman 링크 : https://documenter.getpostman.com/view/39423685/2sAY4ye1fo
 
-2.ERD 
+
+# 2.ERD 
 
 
-![image](https://github.com/user-attachments/assets/f951abb4-4bc9-4990-af9b-ebdd27fb3cf0)
+![image](https://github.com/user-attachments/assets/b9234ce8-3695-4afd-884b-5e4021e77c4e)
+
 
 
 
@@ -19,50 +21,45 @@
 ERD URL : https://www.erdcloud.com/d/34CmYvz4KxvnDzCLG
 
 
-3.SQL
+# 3.SQL
 
 
-1. 테이블 생성
+#### 3-1. 테이블 생성
 
-CREATE TABLE SCHEDULE
-(
-    id int,
-    title varchar(50),
-    content varchar(200),
-    user varchar(50),
-    createdAt Datetime,
-    updatedAt Datetime,
-    password String,
-    todo String
-);
-
-
-2. 테이블 값 삽입
+![image](https://github.com/user-attachments/assets/20540869-5aae-4dfb-a33e-4a91ba78f626)
 
 
 
-Insert into SCHEDULE(id, title, content, user, createdAt, updatedAt, password, todo)
-values(1,'3주차 강의 복습','3주차 강의내용을 보충하자', 'HWAN',
-       '2024-11-05', '2024-11-05', '1234', '지금 당장 실행!');
-                               
-   3.전체 일정 조회
+
+#### 3-2. 테이블 값 삽입
+
+![image](https://github.com/user-attachments/assets/e79de9a3-8734-4206-be8f-efa2b008b845)
+
+
+
+                                
+#### 3-3.전체 일정 조회
+
+![image](https://github.com/user-attachments/assets/f2e708e1-14ca-491d-8414-dca8c8d6e00c)
+
+
 
    
-   select * from schedule;
+#### 3-4. 선택 일정 조회
+
+![image](https://github.com/user-attachments/assets/2b456c37-ec81-4df9-97f7-bfb8abe93ab1)
+
+
 
    
-   4. 선택 일정 조회
+#### 3-5. 선택 일정 수정
 
-   select * from schedule where id = 1;
+![image](https://github.com/user-attachments/assets/b08a0a20-3e4c-4498-b296-f2e1efa2af21)
 
-   
-   5. 선택 일정 수정
 
-   
-  update schedule set password= '2930' where id = 1 ;
 
-   
-   5. 선택 일정 삭제
 
-    
-  delete from schedule where id =1 ;
+#### 3-6. 선택 일정 삭제
+
+![image](https://github.com/user-attachments/assets/d12749e8-a643-49ca-931e-704c7fcbc72d)
+
