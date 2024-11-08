@@ -63,3 +63,6 @@ ERD URL : https://www.erdcloud.com/d/34CmYvz4KxvnDzCLG
 
 ![image](https://github.com/user-attachments/assets/d12749e8-a643-49ca-931e-704c7fcbc72d)
 
+
+
+✴️ 트러블 슈팅 : https://nangman99.tistory.com/37
