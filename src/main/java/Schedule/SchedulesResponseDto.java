@@ -12,15 +12,7 @@ public class ScheduleResponseDto {
     private String updatedAt;
     private String todo;
 
-    public ScheduleResponseDto(Schedule schedule) {  //Schedule매개변수 생성자 호출
-        this.id = schedule.getId();
-        this.title = schedule.getTitle();
-        this.content = schedule.getContent();
-        this.user = schedule.getUser();
-        this.createdAt = schedule.getCreatedAt();
-        this.updatedAt = schedule.getUpdatedAt();
-        this.todo = schedule.getTodo();
-    }
+
 
     public ScheduleResponseDto(Long id, String title, String content, String user, String createdAt, String updatedAt
             , String todo) {  //ResponseDto 생성자 매서드
@@ -33,3 +25,4 @@ public class ScheduleResponseDto {
         this.todo = todo;
     }
 }
+
