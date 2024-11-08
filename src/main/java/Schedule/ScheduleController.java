@@ -19,7 +19,8 @@ public class ScheduleController {
     public ScheduleResponseDto createSchedule(@RequestBody ScheduleRequestDto requestDto){
         Schedule schedule=new Schedule(requestDto); //Entity -> requestDto 객체 생성
         scheduleRepository.save(schedule); //리포지터리(저장소) 저장
-        ScheduleResponseDto scheduleResponseDto=new ScheduleResponseDto(schedule); //Entity -> responseDto 객체 생성
+        ScheduleResponseDto scheduleResponseDto=new ScheduleResponseDto(schedule.getId(),schedule.getTitle() //schedule내 필드정보 호출
+                ,schedule.getContent(),schedule.getUser(),schedule.getCreatedAt(), schedule.getUpdatedAt(),schedule.getTodo());
         return scheduleResponseDto;
     }
 }
